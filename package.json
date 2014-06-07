@@ -1,0 +1,12 @@
+{
+    "name": "react-tabinput",
+    "version": "0.0.1",
+    "description": "A tag / keyword input built with React (as a reusable component)",
+    "main": "index.js",
+    "dependencies": {
+      "jsx-loader": "",
+      "less-loader": "",
+      "style-loader": "",
+      "css-loader": ""
+    }
+}
