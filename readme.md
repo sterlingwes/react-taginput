@@ -31,4 +31,4 @@ To play around and re-run the example, build via Webpack with `--watch`:
 
 ### Questions?
 
-[@sterlinwes](http://twitter.com/sterlingwes)
+[@sterlingwes](http://twitter.com/sterlingwes)
