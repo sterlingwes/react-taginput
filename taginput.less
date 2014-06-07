@@ -1,0 +1,58 @@
+@height: 30px;
+
+.taginput_container {
+  position: relative;
+  width: 60%;
+  font-family: 'Arial' sans-serif;
+  font-size: 0.9em;
+  border: 1px solid #ccc;
+  height: @height;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  
+  .taginput_tags {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    
+    .taginput_tag {
+      display: inline-block;
+      margin-right: 2px;
+      padding: 3px;
+      margin-bottom: 2px;
+      background-color: #ccc;
+      border-radius: 3px;
+      cursor: pointer;
+      
+      .taginput_x {
+        font-size: 1em;
+        padding-left: 2px;
+        color: #777;
+      }
+      
+      &:hover {
+        background-color: #999;
+        color: #fff;
+        
+        .taginput_x {
+          color: #eee;
+        }
+      }
+    }
+  }
+  
+  input {
+    position: absolute;
+    height: @height;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    padding: 4px;
+    border: 0px solid transparent;
+    outline: none;
+  }
+}
